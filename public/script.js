@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {   // DOM esté completamen
 
     const calcularMediaLocalidad = () => { 
         const loc = refs.localidad.value;
-        if (!loc) return mostrarError(refs.resLocalidad, "Selecciona una localidad.");
+        if (!loc) return mostrarError(refs.resLocalidad, "Selecciona una localidad."); 
         getJSON(`/api/media-localidad/${encodeURIComponent(loc)}`) // Codifica la localidad para la URL
-            .then(data => refs.resLocalidad.textContent = `Media en ${loc}: ${data.media} °C`)
+            .then(data => refs.resLocalidad.textContent = `Media en ${loc}: ${data.media} °C`) 
             .catch(() => mostrarError(refs.resLocalidad, "Error al calcular media."));
     };
 
