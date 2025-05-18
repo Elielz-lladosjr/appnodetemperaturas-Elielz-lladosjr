@@ -128,7 +128,7 @@
         #resumenSemanal tbody tr:nth-child(even) {
             background-color: #f2f2f2;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 768px) { 
             main {
                 width: 95%;
             }
