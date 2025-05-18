@@ -1,0 +1,78 @@
+{
+  "f_inicio": "10/05/2025",
+  "f_fin": "12/05/2025",
+  "localidades": [
+    {
+      "nombre": "Madrid",
+      "temperaturas": [
+        { "dia": "L", "max": "32", "min": "20" },
+        { "dia": "M", "max": "31", "min": "19" },
+        { "dia": "X", "max": "30", "min": "18" },
+        { "dia": "J", "max": "29", "min": "17" },
+        { "dia": "V", "max": "28", "min": "16" },
+        { "dia": "S", "max": "27", "min": "15" },
+        { "dia": "D", "max": "26", "min": "14" }
+      ]
+    },
+    {
+      "nombre": "Barcelona",
+      "temperaturas": [
+        { "dia": "L", "max": "27", "min": "18" },
+        { "dia": "M", "max": "26", "min": "17" },
+        { "dia": "X", "max": "25", "min": "16" },
+        { "dia": "J", "max": "24", "min": "15" },
+        { "dia": "V", "max": "23", "min": "14" },
+        { "dia": "S", "max": "22", "min": "13" },
+        { "dia": "D", "max": "21", "min": "12" }
+      ]
+    },
+    {
+      "nombre": "Valencia",
+      "temperaturas": [
+        { "dia": "L", "max": "29", "min": "19" },
+        { "dia": "M", "max": "28", "min": "18" },
+        { "dia": "X", "max": "27", "min": "17" },
+        { "dia": "J", "max": "26", "min": "16" },
+        { "dia": "V", "max": "25", "min": "15" },
+        { "dia": "S", "max": "24", "min": "14" },
+        { "dia": "D", "max": "23", "min": "13" }
+      ]
+    },
+    {
+      "nombre": "Sevilla",
+      "temperaturas": [
+        { "dia": "L", "max": "35", "min": "22" },
+        { "dia": "M", "max": "34", "min": "21" },
+        { "dia": "X", "max": "33", "min": "20" },
+        { "dia": "J", "max": "32", "min": "19" },
+        { "dia": "V", "max": "31", "min": "18" },
+        { "dia": "S", "max": "30", "min": "17" },
+        { "dia": "D", "max": "29", "min": "16" }
+      ]
+    },
+    {
+      "nombre": "Bilbao",
+      "temperaturas": [
+        { "dia": "L", "max": "21", "min": "12" },
+        { "dia": "M", "max": "22", "min": "13" },
+        { "dia": "X", "max": "23", "min": "14" },
+        { "dia": "J", "max": "24", "min": "15" },
+        { "dia": "V", "max": "25", "min": "16" },
+        { "dia": "S", "max": "26", "min": "17" },
+        { "dia": "D", "max": "27", "min": "18" }
+      ]
+    },
+    {
+      "nombre": "Granada",
+      "temperaturas": [
+        { "dia": "L", "max": "30", "min": "18" },
+        { "dia": "M", "max": "29", "min": "17" },
+        { "dia": "X", "max": "28", "min": "16" },
+        { "dia": "J", "max": "27", "min": "15" },
+        { "dia": "V", "max": "26", "min": "14" },
+        { "dia": "S", "max": "25", "min": "13" },
+        { "dia": "D", "max": "24", "min": "12" }
+      ]
+    }
+  ]
+}

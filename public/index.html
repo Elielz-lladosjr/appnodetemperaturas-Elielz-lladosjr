@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperaturas</title>
+</head>
+<body>
+  <header><h1>Medias de Temperatura</h1></header>
+    <main>
+        <section class="avg">
+            <h2>Temperaturas Máximas</h2>
+            <select id="localidad">
+                <option disabled selected hidden value="">Selecciona una localidad</option>
+            </select>
+            <button id="avglocalidad" value="avglocalidad">Calcular media Tª max en esa localidad</button>
+            <span id="res_avglocalidad"></span>
+        </section>
+        <section class="avg">
+            <select id="dia">
+                <option disabled selected hidden value="">Selecciona un día </option>
+                <option value="0">Lunes</option>
+                <option value="1">Martes</option>
+                <option value="2">Miércoles</option>
+                <option value="3">Jueves</option>
+                <option value="4">Viernes</option>
+                <option value="5">Sábado</option>
+                <option value="6">Domingo</option>
+            </select>
+            <button id="avgdia" value="avgdia">Calcular media Tª max en ese día</button>
+            <span id="res_avgdia"></span>
+        </section>
+        <section class="avg">
+            <button id="avg" value="avg">Calcular media Tª max</button>
+            <span id="res_avg"></span>
+        </section>
+        <section id="umbral" class="avg">
+            <h2>Filtrar por Umbral</h2>
+            <input type="number" id="umbralInput" placeholder="Ingrese umbral">
+            <select id="condicionUmbral">
+                <option value="mayor">Mayor que</option>
+                <option value="menor">Menor que</option>
+            </select>
+            <button id="btnUmbral">Filtrar por Umbral</button>
+            <div id="resultadoUmbral"></div>
+        </section>
+        <section id="resumenSemanal" class="avg">
+            <h3>Resumen Semanal de Temperaturas</h3>
+            <select id="localidadResumen">
+                <option disabled selected hidden value="">Selecciona una localidad</option>
+            </select>
+            <button id="btnResumenSemanal">Mostrar Resumen Semanal</button>
+            <div id="resultadoResumenSemanal"></div>
+        </section>
+        <section id="analisisTemperaturas" class="avg">
+            <h3>Análisis de Temperaturas por Fecha</h3>
+            <label for="fechaInicio">Fecha de Inicio:</label>
+            <input type="date" id="fechaInicio">
+            <label for="fechaFin">Fecha de Fin:</label>
+            <input type="date" id="fechaFin">
+            <button id="btnAnalisis">Mostrar Análisis</button>
+            <div id="resultadoAnalisis"></div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
